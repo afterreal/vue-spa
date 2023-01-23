@@ -1,10 +1,31 @@
 <script setup></script>
 
 <template>
-  <div class="text-3xl font-bold p-2 bg-slate-300">LOGO</div>
-  <button class="rounded-full p-1 pl-3 pr-3 font-sans font-medium bg-sky-500 hover:bg-sky-400">
-    SEE ALL
-  </button>
+  <nav class="flex justify-center space-x-4 p-2 bg-slate-100">
+    <div>
+      <img class=" h-10 w-10 " src="@/img/P1.svg" alt="">
+    </div>
+    <a
+      href="/dashboard"
+      class="font-bol px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-300 hover:text-slate-900"
+      >Home</a
+    >
+    <a
+      href="/team"
+      class="font-bol px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-300 hover:text-slate-900"
+      >Team</a
+    >
+    <a
+      href="/projects"
+      class="font-bol px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-300 hover:text-slate-900"
+      >Projects</a
+    >
+    <a
+      href="/reports"
+      class="font-bol px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-300 hover:text-slate-900"
+      >Reports</a
+    >
+  </nav>
 </template>
 
 <style scoped></style>

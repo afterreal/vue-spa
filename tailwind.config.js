@@ -4,8 +4,14 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
+  
+  fontFamily: {
+
+  },
+
   theme: {
     extend: {},
   },
+
   plugins: [],
 }
